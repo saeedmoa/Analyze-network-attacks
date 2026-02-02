@@ -1,2 +1,4 @@
 # Analyze network attacks
 This repository is an activity in within google cybersecurity course that i completed in which i conducted a cybersecurity incident report in regards to a network attack.
+In this task, i received an automated alert from the monitoring system indicating a problem with a web server. I attempted to go on the company website however i was unable to as i received a connection timeout error message.
+I used a packet sniffer to analyze the network traffic as i accessed the company website and noticed an influx number of SYN requests coming from an unfamiliar IP address. The web server seems overwhelmed because of this. My next steps was to take the server offline temporarily and also configure the firewall to block that specific IP address that was sending the abnormal SYN requests.
